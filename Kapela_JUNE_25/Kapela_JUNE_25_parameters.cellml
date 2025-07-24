@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<model name="Parameters" xmlns="http://www.cellml.org/cellml/1.1#" xmlns:cellml="http://www.cellml.org/cellml/1.1#" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;parameter_units&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;//-->
+<import xlink:href="Kapela_JUNE_25_units.cellml">
+    <units name="s2" units_ref="s2"/>
+    <units name="Hz" units_ref="Hz"/>
+    <units name="millis" units_ref="millis"/>
+    <units name="per_millis" units_ref="per_millis"/>
+    <units name="mm" units_ref="mm"/>
+    <units name="m2" units_ref="m2"/>
+    <units name="mm2" units_ref="mm2"/>
+    <units name="m3" units_ref="m3"/>
+    <units name="m4" units_ref="m4"/>
+    <units name="mm3" units_ref="mm3"/>
+    <units name="J_per_s" units_ref="J_per_s"/>
+    <units name="mol_per_s" units_ref="mol_per_s"/>
+    <units name="mmol_per_s" units_ref="mmol_per_s"/>
+    <units name="umol_per_s" units_ref="umol_per_s"/>
+    <units name="C_per_s" units_ref="C_per_s"/>
+    <units name="mC_per_s" units_ref="mC_per_s"/>
+    <units name="uC_per_s" units_ref="uC_per_s"/>
+    <units name="nC_per_s" units_ref="nC_per_s"/>
+    <units name="Cm_per_millis" units_ref="Cm_per_millis"/>
+    <units name="m_per_s" units_ref="m_per_s"/>
+    <units name="mm_per_s" units_ref="mm_per_s"/>
+    <units name="um_per_s" units_ref="um_per_s"/>
+    <units name="rad_per_s" units_ref="rad_per_s"/>
+    <units name="m3_per_s" units_ref="m3_per_s"/>
+    <units name="mL" units_ref="mL"/>
+    <units name="per_milliL_s" units_ref="per_milliL_s"/>
+    <units name="s_per_m3" units_ref="s_per_m3"/>
+    <units name="s_per_milliV" units_ref="s_per_milliV"/>
+    <units name="s_per_millis" units_ref="s_per_millis"/>
+    <units name="millis_per_s" units_ref="millis_per_s"/>
+    <units name="mm3_per_s" units_ref="mm3_per_s"/>
+    <units name="l_per_s" units_ref="l_per_s"/>
+    <units name="per_ml_s" units_ref="per_ml_s"/>
+    <units name="J_per_mol" units_ref="J_per_mol"/>
+    <units name="J_per_kmol_K" units_ref="J_per_kmol_K"/>
+    <units name="J_per_M" units_ref="J_per_M"/>
+    <units name="J_per_C" units_ref="J_per_C"/>
+    <units name="J_per_C_s" units_ref="J_per_C_s"/>
+    <units name="J_per_m" units_ref="J_per_m"/>
+    <units name="J_per_m3" units_ref="J_per_m3"/>
+    <units name="mmHg" units_ref="mmHg"/>
+    <units name="m3_per_J" units_ref="m3_per_J"/>
+    <units name="J_per_m3s" units_ref="J_per_m3s"/>
+    <units name="m3_per_Js" units_ref="m3_per_Js"/>
+    <units name="J2_per_m6" units_ref="J2_per_m6"/>
+    <units name="Js2_per_C2" units_ref="Js2_per_C2"/>
+    <units name="Js2_per_mol2" units_ref="Js2_per_mol2"/>
+    <units name="Js_per_mol2" units_ref="Js_per_mol2"/>
+    <units name="Js_per_C2" units_ref="Js_per_C2"/>
+    <units name="J_per_mol2" units_ref="J_per_mol2"/>
+    <units name="C2_per_J_s" units_ref="C2_per_J_s"/>
+    <units name="J_per_C2" units_ref="J_per_C2"/>
+    <units name="C2_per_J" units_ref="C2_per_J"/>
+    <units name="mol_per_m3" units_ref="mol_per_m3"/>
+    <units name="M" units_ref="M"/>
+    <units name="mM" units_ref="mM"/>
+    <units name="uM" units_ref="uM"/>
+    <units name="kg_per_m3" units_ref="kg_per_m3"/>
+    <units name="m3_per_kg" units_ref="m3_per_kg"/>
+    <units name="per_m3" units_ref="per_m3"/>
+    <units name="mol_per_m2_s" units_ref="mol_per_m2_s"/>
+    <units name="mM_m_per_s" units_ref="mM_m_per_s"/>
+    <units name="J_per_m2_s" units_ref="J_per_m2_s"/>
+    <units name="Js_per_m4" units_ref="Js_per_m4"/>
+    <units name="mM_per_s" units_ref="mM_per_s"/>
+    <units name="per_s" units_ref="per_s"/>
+    <units name="per_mM_s" units_ref="per_mM_s"/>
+    <units name="m6_per_mol2_s" units_ref="m6_per_mol2_s"/>
+    <units name="m3_per_mol" units_ref="m3_per_mol"/>
+    <units name="mol_per_m3_s" units_ref="mol_per_m3_s"/>
+    <units name="per_mol" units_ref="per_mol"/>
+    <units name="J_per_mol_K" units_ref="J_per_mol_K"/>
+    <units name="C_per_mol" units_ref="C_per_mol"/>
+    <units name="m2_per_s" units_ref="m2_per_s"/>
+    <units name="per_C" units_ref="per_C"/>
+    <units name="per_m" units_ref="per_m"/>
+    <units name="per_mM" units_ref="per_mM"/>
+    <units name="Js2_per_m2" units_ref="Js2_per_m2"/>
+    <units name="Js_per_m2" units_ref="Js_per_m2"/>
+    <units name="J_per_m2" units_ref="J_per_m2"/>
+    <units name="m_per_s2" units_ref="m_per_s2"/>
+    <units name="rad_per_s2" units_ref="rad_per_s2"/>
+    <units name="Js_per_m3" units_ref="Js_per_m3"/>
+    <units name="Js2_per_m5" units_ref="Js2_per_m5"/>
+    <units name="m5_per_Js2" units_ref="m5_per_Js2"/>
+    <units name="J_per_m6" units_ref="J_per_m6"/>
+    <units name="m6_per_J" units_ref="m6_per_J"/>
+    <units name="m6_per_Js" units_ref="m6_per_Js"/>
+    <units name="mm6_per_J" units_ref="mm6_per_J"/>
+    <units name="Js2_per_m9" units_ref="Js2_per_m9"/>
+    <units name="m6s_per_J" units_ref="m6s_per_J"/>
+    <units name="Js_per_m6" units_ref="Js_per_m6"/>
+    <units name="Js2_per_m6" units_ref="Js2_per_m6"/>
+    <units name="m3_per_s2" units_ref="m3_per_s2"/>
+    <units name="mm3_per_s2" units_ref="mm3_per_s2"/>
+    <units name="per_mm3" units_ref="per_mm3"/>
+    <units name="UnitValve" units_ref="UnitValve"/>
+    <units name="J_per_m9" units_ref="J_per_m9"/>
+    <units name="milliV" units_ref="milliV"/>
+    <units name="per_milliV" units_ref="per_milliV"/>
+    <units name="millis_per_milliV" units_ref="millis_per_milliV"/>
+    <units name="per_V" units_ref="per_V"/>
+    <units name="milliV_per_V" units_ref="milliV_per_V"/>
+    <units name="V_per_milliV" units_ref="V_per_milliV"/>
+    <units name="V_per_s" units_ref="V_per_s"/>
+    <units name="milliV_per_kiloV" units_ref="milliV_per_kiloV"/>
+    <units name="V2" units_ref="V2"/>
+    <units name="milliV2" units_ref="milliV2"/>
+    <units name="millimol" units_ref="millimol"/>
+    <units name="millimolar" units_ref="millimolar"/>
+    <units name="per_millimolar" units_ref="per_millimolar"/>
+    <units name="per_millimolar_s" units_ref="per_millimolar_s"/>
+    <units name="per_millimolar2_s" units_ref="per_millimolar2_s"/>
+    <units name="millimolar_per_s" units_ref="millimolar_per_s"/>
+    <units name="millimolar_per_megamolar" units_ref="millimolar_per_megamolar"/>
+    <units name="per_millimol_milliS" units_ref="per_millimol_milliS"/>
+    <units name="per_millimol_millis" units_ref="per_millimol_millis"/>
+    <units name="per_millimol_s" units_ref="per_millimol_s"/>
+    <units name="microm" units_ref="microm"/>
+    <units name="microS" units_ref="microS"/>
+    <units name="microm3" units_ref="microm3"/>
+    <units name="m3_per_microm3" units_ref="m3_per_microm3"/>
+    <units name="S_per_F" units_ref="S_per_F"/>
+    <units name="m3_per_Fs" units_ref="m3_per_Fs"/>
+    <units name="A_per_F" units_ref="A_per_F"/>
+    <units name="megaOhm" units_ref="megaOhm"/>
+    <units name="nanoA" units_ref="nanoA"/>
+    <units name="nanoA_per_milliA" units_ref="nanoA_per_milliA"/>
+    <units name="J_per_MK" units_ref="J_per_MK"/>
+    <units name="C_per_M" units_ref="C_per_M"/>
+    <units name="m3_per_J_millis" units_ref="m3_per_J_millis"/>
+    <units name="m3_per_M_millis" units_ref="m3_per_M_millis"/>
+    <units name="m3_per_millimol_s" units_ref="m3_per_millimol_s"/>
+    <units name="millimol_per_m3" units_ref="millimol_per_m3"/>
+    <units name="cm" units_ref="cm"/>
+    <units name="fmol" units_ref="fmol"/>
+    <units name="per_fmol" units_ref="per_fmol"/>
+    <units name="nJ_per_s" units_ref="nJ_per_s"/>
+    <units name="fmol_per_s" units_ref="fmol_per_s"/>
+    <units name="nC_per_fmol" units_ref="nC_per_fmol"/>
+    <units name="nC" units_ref="nC"/>
+    <units name="nJ_per_fmol" units_ref="nJ_per_fmol"/>
+    <units name="nJ_per_nC" units_ref="nJ_per_nC"/>
+    <units name="fC" units_ref="fC"/>
+    <units name="fF" units_ref="fF"/>
+    <units name="volt_per_sec" units_ref="volt_per_sec"/>
+    <units name="J_per_K_per_mol" units_ref="J_per_K_per_mol"/>
+    <units name="nS" units_ref="nS"/>
+    <units name="nSmV" units_ref="nSmV"/>
+    <units name="per_ms" units_ref="per_ms"/>
+    <units name="mM_per_ms" units_ref="mM_per_ms"/>
+    <units name="mMms" units_ref="mMms"/>
+    <units name="per_mMms" units_ref="per_mMms"/>
+    <units name="micromolar" units_ref="micromolar"/>
+    <units name="nanomolar" units_ref="nanomolar"/>
+    <units name="ms" units_ref="ms"/>
+    <units name="mV" units_ref="mV"/>
+    <units name="C" units_ref="C"/>
+    <units name="picoA" units_ref="picoA"/>
+    <units name="microL" units_ref="microL"/>
+    <units name="Farad" units_ref="Farad"/>
+    <units name="picofarad" units_ref="picofarad"/>
+    <units name="per__ms_x_mM2_" units_ref="per__ms_x_mM2_"/>
+    <units name="nanosiemens" units_ref="nanosiemens"/>
+    <units name="coulomb_x_mV_per__K_x_mol_" units_ref="coulomb_x_mV_per__K_x_mol_"/>
+    <units name="mV_per_msec" units_ref="mV_per_msec"/>
+    <units name="per_cm2" units_ref="per_cm2"/>
+    <units name="per_msec" units_ref="per_msec"/>
+    <units name="per_mV" units_ref="per_mV"/>
+    <units name="mol2_per__J_x_s_x_cm2_" units_ref="mol2_per__J_x_s_x_cm2_"/>
+    <units name="picoampere" units_ref="picoampere"/>
+    <units name="msec" units_ref="msec"/>
+    <units name="nanosiemens_per_picofarad" units_ref="nanosiemens_per_picofarad"/>
+    <units name="cm_per_s" units_ref="cm_per_s"/>
+    <units name="per__ms_x_mM_" units_ref="per__ms_x_mM_"/>
+    <units name="mM2" units_ref="mM2"/>
+    <units name="cm3_per_s" units_ref="cm3_per_s"/>
+    <units name="K" units_ref="K"/>
+    <units name="picoampere_per_picofarad" units_ref="picoampere_per_picofarad"/>
+    <units name="picofarad_per_cm2" units_ref="picofarad_per_cm2"/>
+    <units name="cm2" units_ref="cm2"/>
+    <units name="coulomb_per_mol" units_ref="coulomb_per_mol"/>
+    <units name="coulomb_mV_per_mol" units_ref="coulomb_mV_per_mol"/>
+    <units name="J_per_millimol_K" units_ref="J_per_millimol_K"/>
+    <units name="coulomb_millivolt_per_mol" units_ref="coulomb_millivolt_per_mol"/>
+    <units name="picoL_per_mol" units_ref="picoL_per_mol"/>
+    <units name="femto_SF" units_ref="femto_SF"/>
+    <units name="picoL" units_ref="picoL"/>
+    <units name="pL_mM_per_ms_mol" units_ref="pL_mM_per_ms_mol"/>
+    <units name="mM4" units_ref="mM4"/>
+    <units name="peta_SF" units_ref="peta_SF"/>
+    <units name="micro_SF" units_ref="micro_SF"/>
+    <units name="nano_SF" units_ref="nano_SF"/>
+    <units name="mega_SF" units_ref="mega_SF"/>
+    <units name="nM3_per_ps" units_ref="nM3_per_ps"/>
+    <units name="picoampere_s_per_cm" units_ref="picoampere_s_per_cm"/>
+</import>
+<component name="parameters_global">
+</component>
+<component name="parameters">
+<variable initial_value="0.8" name="K_CSQN_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.0003" name="d_NCX_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="100000" name="G_TG_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.0004" name="k_DsGC_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="0.0064" name="K_ClcGMP_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.0000695" name="k_pdecGMP_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="1.87" name="Q_10_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.0001" name="k_DrsGC_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="100" name="tau_SOC_Kapela" public_interface="out" units="ms"/>
+<variable initial_value="0.66" name="Ca_u_init_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.57" name="Ca_r_init_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.0000064" name="k_2sGC_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="0" name="Istim_amp_Kapela" public_interface="out" units="picoampere"/>
+<variable initial_value="46.3" name="dV_50KCaNO_Kapela" public_interface="out" units="mV"/>
+<variable initial_value="35.9" name="tau_ps_Kapela" public_interface="out" units="ms"/>
+<variable initial_value="0.000068" name="Ca_i_init_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.0000107" name="R_leak_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.000487" name="g_NCX_Kapela" public_interface="out" units="picoampere"/>
+<variable initial_value="2" name="Ca_e_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.001" name="K_mup_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="1.6" name="K_dKe_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0" name="P_SOC_init_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.84" name="tau_pf_Kapela" public_interface="out" units="ms"/>
+<variable initial_value="0.7" name="Vol_Ca_Kapela" public_interface="out" units="picoL"/>
+<variable initial_value="0.0575" name="gNa_SOC_Kapela" public_interface="out" units="nanosiemens"/>
+<variable initial_value="0" name="V_cGMP_init_Kapela" public_interface="out" units="mM_per_ms"/>
+<variable initial_value="0" name="IP3_init_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="5.37" name="Ibar_PMCA_Kapela" public_interface="out" units="picoampere"/>
+<variable initial_value="0.0001" name="K_inhIP3_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="-59.4" name="V_m_init_Kapela" public_interface="out" units="mV"/>
+<variable initial_value="0.45" name="gamma_NCX_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="3.9E-13" name="P_BKCa_Kapela" public_interface="out" units="cm3_per_s"/>
+<variable initial_value="2884" name="tau_q2_Kapela" public_interface="out" units="ms"/>
+<variable initial_value="371" name="tau_q1_Kapela" public_interface="out" units="ms"/>
+<variable initial_value="22" name="Na_dNai_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.000004" name="R_11_init_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.0033" name="R_10_init_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="-59.4" name="V_m0_Kapela" public_interface="out" units="mV"/>
+<variable initial_value="1.7" name="n_HNai_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.00000002781" name="alpha_G_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="4.2" name="k_3sGC_Kapela" public_interface="out" units="per__ms_x_mM_"/>
+<variable initial_value="-1" name="z_Cl_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.0083" name="gCa_SOC_Kapela" public_interface="out" units="nanosiemens"/>
+<variable initial_value="0.000365" name="K_ClCa_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.00288" name="Ibar_IP3_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="0.9955" name="R_01_init_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="2" name="z_Ca_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="2.3083" name="Ibar_NaK_Kapela" public_interface="out" units="picoampere_per_picofarad"/>
+<variable initial_value="0.000000175" name="k_rG_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="2" name="n_ClCa_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="20000" name="R_TG_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.000006" name="k_eG_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="0.0333" name="tau_rel_Kapela" public_interface="out" units="ms"/>
+<variable initial_value="0" name="cGMP_i_init_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.015" name="k_m1sGC_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="1" name="z_Na_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0" name="R_supSPG_init_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.00125" name="k_degG_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="6.68" name="Ibar_SERCA_Kapela" public_interface="out" units="picoampere"/>
+<variable initial_value="1.05" name="K_r2_Kapela" public_interface="out" units="per__ms_x_mM_"/>
+<variable initial_value="2500" name="K_r1_Kapela" public_interface="out" units="per__ms_x_mM2_"/>
+<variable initial_value="0.1" name="Bbar_F_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.0132" name="R_ClcGMPmin_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.0015" name="k_dG_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="8.4" name="Na_i_init_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.07" name="Vol_SRu_Kapela" public_interface="out" units="picoL"/>
+<variable initial_value="140" name="Na_e_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.007" name="Vol_SRr_Kapela" public_interface="out" units="picoL"/>
+<variable initial_value="59.4" name="Cl_i_init_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0" name="k_pG_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="1.1" name="n_HKe_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="129" name="Cl_e_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.00017" name="K_mPMCA_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.084" name="K_mr2_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="0.0076" name="K_mr1_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="76" name="dV_50KCacGMP_Kapela" public_interface="out" units="mV"/>
+<variable initial_value="0.23" name="g_ClCa_Kapela" public_interface="out" units="nanosiemens_per_picofarad"/>
+<variable initial_value="0.0001" name="K_SOC_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.0000188" name="P_VOCC_Kapela" public_interface="out" units="cm_per_s"/>
+<variable initial_value="0.0005298" name="K_dB_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="3.3" name="n_ClcGMP_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.000000126" name="V_cGMPmax_Kapela" public_interface="out" units="mM_per_ms"/>
+<variable initial_value="0.2" name="K_2G_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="6.022E+023" name="N_Avo_Kapela" public_interface="out" units="per_mol"/>
+<variable initial_value="0.00012" name="K_IP3_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.85" name="xi_G_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.0004" name="K_cG_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.0000001" name="k_m2sGC_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="0.001" name="NE_amp_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="6600000" name="N_BKCa_Kapela" public_interface="out" units="per_cm2"/>
+<variable initial_value="0.01" name="K_1G_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.001" name="K_mpde_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.1" name="Sbar_CM_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="293" name="T_Kapela" public_interface="out" units="K"/>
+<variable initial_value="0.00017" name="k_aG_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="8314.472" name="R_Kapela" public_interface="out" units="coulomb_x_mV_per__K_x_mol_"/>
+<variable initial_value="96485.3399" name="F_Kapela" public_interface="out" units="C_per_mol"/>
+<variable initial_value="0.003" name="K_NSC_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="1.4" name="k_onIP3_Kapela" public_interface="out" units="per__ms_x_mM_"/>
+<variable initial_value="1000" name="tau_tr_Kapela" public_interface="out" units="ms"/>
+<variable initial_value="140" name="K_i_init_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="1" name="Vol_i_Kapela" public_interface="out" units="picoL"/>
+<variable initial_value="5" name="K_e_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.00017" name="K_actIP3_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="1E-12" name="NO_0_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.0244" name="d_NSCmin_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="0.067" name="g_Kleak_Kapela" public_interface="out" units="nanosiemens"/>
+<variable initial_value="0.00026" name="K_dCM_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0.000000511" name="PNa_NSC_Kapela" public_interface="out" units="cm_per_s"/>
+<variable initial_value="25" name="C_m_Kapela" public_interface="out" units="picofarad"/>
+<variable initial_value="0.000015" name="r_rG_Kapela" public_interface="out" units="per_ms"/>
+<variable initial_value="1.79E-17" name="L_NaKCl_Kapela" public_interface="out" units="mol2_per__J_x_s_x_cm2_"/>
+<variable initial_value="2000" name="k_1sGC_Kapela" public_interface="out" units="per__ms_x_mM_"/>
+<variable initial_value="15" name="CSQNbar_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="0" name="IP3_0_Kapela" public_interface="out" units="mM"/>
+<variable initial_value="50000000" name="PIP2_T_Kapela" public_interface="out" units="dimensionless"/>
+<variable initial_value="1.8" name="G_k15_Kapela" public_interface="out" units="nanosiemens"/>
+<variable initial_value="0.7" name="G_k21_Kapela" public_interface="out" units="nanosiemens"/>
+<variable initial_value="1" name="z_K_Kapela" public_interface="out" units="dimensionless"/>
+</component>
+</model>

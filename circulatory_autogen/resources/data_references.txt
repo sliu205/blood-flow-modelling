@@ -1,0 +1,59 @@
+# This document details the references specified in the data_reference entry of the parameters.csv file
+
+to_find_reference:        value has been obtained from data, I need to find the
+                          paper/datasource where this value was obtained.
+
+defined_by_user:          This is a parameter that the user defines, if not defined, the original value
+                          is the assumption, e.g the period T is assumed to be 1.0 s if it is not 
+                          redefined by the user.
+
+small_chosen              This parameter is set as an arbitrarily small value. e.g in some vessels
+                          a very small inertia is chosen, which assumes the flow is almost instantly accelerated
+                          by the pressures on it. The inertia is left in to ensure the system can
+                          be written as an ODE rather than a DAE.
+
+ANS_control_parameter:    This parameter is modified by the ANS control system, leave it as 1.0 and the 
+                          changing of it needs to be done in the Python code. If there is no ANS control 
+                          implemented this stays as 1.0 and ANS control doesn't occur.
+
+to_be_identified:         This parameter is not physiological! It must be identified from data       
+
+#####_identified:         This parameter has been identified from data with ###### being the data
+                          that data identification occured. 
+                          Each date will be a reference to a specific data source which will
+                          be detailed in a separate file. TODO
+
+ADAN-86                   obtained from the ADAN-86 model see paper "An anatomically detailed arterial network 
+                          model for one-dimensional computational hemodynamics." - Blanco et al. 
+                          This value has either been obtained directly from the
+                          ADAN model, or in the case of nominal terminal flows, the flows of non-modelled
+                          terminals in the area have been summed to get the value for this terminal. e.g
+                          v_nom_leg_L is the sum of all v_noms that were previously downstream of the
+                          leg.
+
+ADAN-218                  obtained from the ADAN-218 model see paper "An anatomically detailed arterial network 
+                          model for one-dimensional computational hemodynamics." - Blanco et al. 
+                          obtained directly from the ADAN model, or in the case of nominal terminal flows,
+                          the flows of non-modelled terminals in the area have been summed to get the value
+                          for this terminal. e.g v_nom_leg_L is the sum of all v_nom downstream of the leg.
+
+Pablo_2013_Table_5        "Table 5 - Blanco, P. J., & Feijóo, R. A. (2013). A
+                          dimensionally-heterogeneous closed-loop model for the cardiovascular system and
+                          its applications. Medical Engineering & Physics, 35(5), 652-667."
+
+Pablo_2013_Table_8        "Table 8 - Blanco, P. J., & Feijóo, R. A. (2013). A
+                          dimensionally-heterogeneous closed-loop model for the cardiovascular system and
+                          its applications. Medical Engineering & Physics, 35(5), 652-667."
+
+Liang_2009_Table_2        "Table 2 - Liang, F., Takagi, S., Himeno, R., & Liu,
+                          H. (2009). Multi-scale modeling of the human cardiovascular system with
+                          applications to aortic valvular and arterial stenoses. Medical & biological
+                          engineering & computing, 47(7), 743-755."
+
+Korakianitis_2006_Table_1 "Table 1 - Korakianitis, T., & Shi, Y. (2006). A
+                          concentrated parameter model for the human cardiovascular system including
+                          heart valve dynamics and atrioventricular interaction. Medical engineering &
+                          physics, 28(7), 613-628."
+
+Mynard_2012               Mynard et al. "A simple, versatile valve model for use in lumped parameter 
+                          and one-dimensional cardiovascular models"

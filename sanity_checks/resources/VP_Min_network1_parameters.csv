@@ -1,0 +1,134 @@
+variable_name,units,value,data_reference
+E_inlet_arteriole,J_per_m3,3000,Guess from 6
+u_ext_inlet_arteriole,J_per_m3,-16,"7,8"
+theta_inlet_arteriole,dimensionless,0,tutorial_params.csv (blood density)
+l_inlet_arteriole,metre,0.00002,microscpoe
+r_0_inlet_arteriole,metre,0.000004,1-5
+u_0_inlet_arteriole,J_per_m3,5333,guess at 40mmHg
+m_tube_inlet_arteriole,dimensionless,0.5,known
+n_tube_inlet_arteriole,dimensionless,0,known
+I_scale_inlet_arteriole,dimensionless,1,user_defined
+u_in_inlet_arteriole,J_per_m3,5333,guess at 40mmHg
+mu,Js_per_m3,0.004,tutorial_params.csv (blood density)
+rho,Js2_per_m5,1050,tutorial_params.csv (blood density)
+g,m_per_s2,9.81,tutorial_params.csv (blood density)
+beta_g,dimensionless,0,tutorial_params.csv (blood density)
+R_flag,dimensionless,1,tutorial_params.csv (blood density)
+q_C_init_B1I0,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+E_B1I0,J_per_m3,2500,6
+l_B1I0,metre,0.000123,microscope
+r_B1I0,metre,0.00000275,1-5
+u_ext_B1I0,J_per_m3,-16,"7,8"
+a_vessel,dimensionless,0.2802,Avolio_1980
+b_vessel,per_m,-505.3,Avolio_1980
+c_vessel,dimensionless,0.1324,Avolio_1980
+d_vessel,per_m,-11.14,Avolio_1980
+E_B2I0,J_per_m3,2500,6
+l_B2I0,metre,0.000078,microscope
+r_0_B2I0,metre,0.00000256,1-5
+u_ext_B2I0,J_per_m3,-16,"7,8"
+q_C_init_B3I0,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+r_0_B3I0,metre,0.00000256,1-5
+E_B3I0,J_per_m3,2500,6
+l_B3I0,metre,0.000366,microscope
+r_B3I0,metre,0.00000238,1-5
+u_ext_B3I0,J_per_m3,-16,"7,8"
+q_C_init_B4I1,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+E_B4I1,J_per_m3,2500,6
+l_B4I1,metre,0.0000719,microscope
+r_B4I1,metre,0.00000219,1-5
+u_ext_B4I1,J_per_m3,-16,"7,8"
+u_out_B4I1,J_per_m3,1999.83,Assume 15 mmHg
+q_C_init_B4I0,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+r_0_B4I0,metre,0.00000219,1-5
+E_B4I0,J_per_m3,2500,6
+l_B4I0,metre,0.0000183,microscope
+r_B4I0,metre,0.00000219,1-5
+u_ext_B4I0,J_per_m3,-16,"7,8"
+q_C_init_B5I0,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+E_B5I0,J_per_m3,2500,6
+l_B5I0,metre,0.0000538,microscope
+r_B5I0,metre,0.000002,1-5
+u_ext_B5I0,J_per_m3,-16,"7,8"
+u_out_B5I0,J_per_m3,1999.83,Assume 15 mmHg
+q_C_init_B5I1,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+E_B5I1,J_per_m3,2500,6
+l_B5I1,metre,0.000172,microscope
+r_B5I1,metre,0.000002,1-5
+u_ext_B5I1,J_per_m3,-16,"7,8"
+u_out_B5I1,J_per_m3,1999.83,Assume 15 mmHg
+q_C_init_B1I1,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+r_0_B1I1,metre,0.00000275,1-5
+E_B1I1,J_per_m3,2500,6
+l_B1I1,metre,0.000097,microscope
+r_B1I1,metre,0.00000275,1-5
+u_ext_B1I1,J_per_m3,-16,"7,8"
+q_C_init_B2I2,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+r_0_B2I2,metre,0.00000256,1-5
+E_B2I2,J_per_m3,2500,6
+l_B2I2,metre,0.0000665,microscope
+r_B2I2,metre,0.00000256,1-5
+u_ext_B2I2,J_per_m3,-16,"7,8"
+q_C_init_B3I2,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+r_0_B3I2,metre,0.00000238,1-5
+E_B3I2,J_per_m3,2500,6
+l_B3I2,metre,0.0002,microscope
+r_B3I2,metre,0.00000238,1-5
+u_ext_B3I2,J_per_m3,-16,"7,8"
+q_C_init_B4I2,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+E_B4I2,J_per_m3,2500,6
+l_B4I2,metre,0.000025,microscope
+r_B4I2,metre,0.00000219,1-5
+u_ext_B4I2,J_per_m3,-16,"7,8"
+u_out_B4I2,J_per_m3,1999.83,Assume 15 mmHg
+q_C_init_B4I3,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+E_B4I3,J_per_m3,2500,6
+l_B4I3,metre,0.000234,microscope
+r_B4I3,metre,0.00000219,1-5
+u_ext_B4I3,J_per_m3,-16,"7,8"
+u_out_B4I3,J_per_m3,1999.83,Assume 15 mmHg
+q_C_init_B2I1,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+E_B2I1,J_per_m3,2500,6
+l_B2I1,metre,0.0000696,microscope
+r_B2I1,metre,0.00000256,1-5
+u_ext_B2I1,J_per_m3,-16,"7,8"
+q_C_init_B2I3,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+E_B2I3,J_per_m3,2500,6
+l_B2I3,metre,0.0000353,microscope
+r_B2I3,metre,0.00000256,1-5
+u_ext_B2I3,J_per_m3,-16,"7,8"
+q_C_init_B2I4,m3,0,stressed_volume_at steady_state_initial_value_dont_matter
+E_B2I4,J_per_m3,2500,6
+l_B2I4,metre,0.0000217,microscope
+r_B2I4,metre,0.00000256,1-5
+u_ext_B2I4,J_per_m3,-16,"7,8"
+u_ext_B3I1,J_per_m3,-16,"7,8"
+u_0_B3I1,J_per_m3,1999.83,Assume 15 mmHg
+E_B3I1,J_per_m3,2500,6
+l_B3I1,metre,0.000366,microscope
+r_0_B3I1,metre,0.00000238,1-5
+u_out_B3I1,J_per_m3,1999.83,Assume 15 mmHg
+mu_plasma,Js_per_m3,0.001,1centipoise in (9)
+q_C_init_inlet_arteriole,m3,0,EMPTY_MUST_BE_FILLED
+,,,
+,,,
+mu_inlet_arteriole,Js_per_m3,0.004,EMPTY_MUST_BE_FILLED
+v_in_inlet_arteriole,m3_per_s,0.01,EMPTY_MUST_BE_FILLED
+u_out_B1I0,J_per_m3,1999.83,EMPTY_MUST_BE_FILLED
+u_out_B2I0,J_per_m3,1999.83,EMPTY_MUST_BE_FILLED
+r_B2I0,metre,0.00000238,EMPTY_MUST_BE_FILLED
+q_C_init_B2I0,m3,0,EMPTY_MUST_BE_FILLED
+v_out_1_inlet_arteriole,m3_per_s,1,EMPTY_MUST_BE_FILLED
+v_out_2_inlet_arteriole,m3_per_s,1,EMPTY_MUST_BE_FILLED
+u_in_B2I1,J_per_m3,3000,EMPTY_MUST_BE_FILLED
+u_in_B2I3,J_per_m3,3000,EMPTY_MUST_BE_FILLED
+u_in_B2I4,J_per_m3,3000,EMPTY_MUST_BE_FILLED
+u_ext_merged_vessel,J_per_m3,-16,EMPTY_MUST_BE_FILLED
+theta_merged_vessel,dimensionless,0,EMPTY_MUST_BE_FILLED
+E_merged_vessel,J_per_m3,2500,EMPTY_MUST_BE_FILLED
+r_0_merged_vessel,metre,0.00000238,EMPTY_MUST_BE_FILLED
+u_out_merged_vessel,J_per_m3,1999.83,EMPTY_MUST_BE_FILLED
+l_merged_vessel,metre,0.000366,EMPTY_MUST_BE_FILLED
+u_in_B1I1,J_per_m3,5333,EMPTY_MUST_BE_FILLED
+u_out_B3I2,J_per_m3,1999.83,EMPTY_MUST_BE_FILLED
+theta_B3I1,dimensionless,0,EMPTY_MUST_BE_FILLED

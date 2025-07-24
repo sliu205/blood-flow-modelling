@@ -1,0 +1,28 @@
+Base Cost: 0.233059
+
+Fully sensitive (0):
+
+
+Partially sensitive (8):
+K_NSC
+Ibar_PMCA
+PNa_NSC
+K_1G
+Sbar_CM
+Ibar_SERCA
+d_NSCmin
+P_VOCC
+
+Insensitive (12):
+d_NCX
+Ibar_NaK
+Ibar_IP3
+K_r1
+P_BKCa
+G_k15
+G_k21
+g_Kleak
+gCa_SOC
+gNa_SOC
+g_ClCa
+g_NCX

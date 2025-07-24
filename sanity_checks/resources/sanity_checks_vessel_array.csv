@@ -1,0 +1,5 @@
+name,BC_type,vessel_type,inp_vessels,out_vessels
+B3I1,vv,Min_junction_capillary,B2I3 B2I1 B2I4,
+B2I3,pp,capillary,,B3I1
+B2I1,pp,capillary,,B3I1
+B2I4,pp,capillary,,B3I1

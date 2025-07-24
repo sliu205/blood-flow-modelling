@@ -1,0 +1,1255 @@
+plotting notes
+ TC1/u, TC2/u, TC3/u, TC4/u, TC5/u, TC9/u
+
+ TC1/v, TC2/v, TC3/v, TC4/v, TC5/v, TC9/v
+
+PB1V1/r,   PB2V2/r,  PB1V3/r
+
+
+
+  0: inlet_arteriole/v (m3_per_s)
+  1: inlet_arteriole/q_C (m3)
+  2: B1V0/q_C (m3)
+  3: PB1V1/q_C (m3)
+  4: B1V1/q_C (m3)
+  5: B1V1/q_C_d (m3)
+  6: B1V2/q_C (m3)
+  7: B1V3/q_C (m3)
+  8: PB1V4/q_C (m3)
+  9: B1V4/q_C (m3)
+ 10: B1V4/q_C_d (m3)
+ 11: TC1/q_C (m3)
+ 12: B1V6/q_C (m3)
+ 13: TC2/q_C (m3)
+ 14: TC3/q_C (m3)
+ 15: B1V9/q_C (m3)
+ 16: B2V0/q_C (m3)
+ 17: PB0V1/q_C (m3)
+ 18: B0V1/q_C (m3)
+ 19: B2V1/q_C (m3)
+ 20: PB2V3/q_C (m3)
+ 21: B2V3/q_C (m3)
+ 22: PTC9/q_C (m3)
+ 23: TC9/q_C (m3)
+ 24: B2V2/q_C (m3)
+ 25: PTC4/q_C (m3)
+ 26: TC4/q_C (m3)
+ 27: TC5/q_C (m3)
+ 28: 
+ 29: inlet_arteriole/u_C (J_per_m3)
+ 30: inlet_arteriole/q (m3)
+ 31: B1V0/q (m3)
+ 32: PB1V1/q (m3)
+ 33: B1V1/q (m3)
+ 34: B1V2/q (m3)
+ 35: B1V3/q (m3)
+ 36: PB1V4/q (m3)
+ 37: B1V4/q (m3)
+ 38: TC1/q (m3)
+ 39: B1V6/q (m3)
+ 40: TC2/q (m3)
+ 41: TC3/q (m3)
+ 42: B1V9/q (m3)
+ 43: B2V0/q (m3)
+ 44: PB0V1/q (m3)
+ 45: B0V1/q (m3)
+ 46: B2V1/q (m3)
+ 47: PB2V3/q (m3)
+ 48: B2V3/q (m3)
+ 49: PTC9/q (m3)
+ 50: TC9/q (m3)
+ 51: B2V2/q (m3)
+ 52: PTC4/q (m3)
+ 53: TC4/q (m3)
+ 54: TC5/q (m3)
+ 55: 
+ 56: inlet_arteriole/u (J_per_m3)
+ 57: B1V1/r (metre)
+ 58: PTC9/r (metre)
+ 59: B1V0/u (J_per_m3)
+ 60: B1V0/v (m3_per_s)
+ 61: PB1V1/u (J_per_m3)
+ 62: B1V0/v_d (m3_per_s)
+ 63: B1V1/u_C (J_per_m3)
+ 64: B1V1/u_C_d (J_per_m3)
+ 65: B1V1/u (J_per_m3)
+ 66: PB1V1/v (m3_per_s)
+ 67: B1V1/u_d (J_per_m3)
+ 68: B1V1/v (m3_per_s)
+ 69: B1V2/u (J_per_m3)
+ 70: B1V2/v (m3_per_s)
+ 71: PB1V3/u (J_per_m3)
+ 72: B1V9/u (J_per_m3)
+ 73: PB1V3/v (m3_per_s)
+ 74: B1V9/v (m3_per_s)
+ 75: B1V3/u (J_per_m3)
+ 76: B2V0/u (J_per_m3)
+ 77: B1V3/v (m3_per_s)
+ 78: B2V0/v (m3_per_s)
+ 79: inlet_arteriole/du_C_dt (J_per_m3s)
+ 80: PB1V4/u (J_per_m3)
+ 81: PB0V1/u (J_per_m3)
+ 82: PB1V4/v (m3_per_s)
+ 83: PB0V1/v (m3_per_s)
+ 84: B1V4/u_C (J_per_m3)
+ 85: PB1V6/u (J_per_m3)
+ 86: B0V1/u (J_per_m3)
+ 87: B1V4/u_C_d (J_per_m3)
+ 88: PB1V6/v (m3_per_s)
+ 89: PB0V1/v_d (m3_per_s)
+ 90: B1V3/v_out_total (m3_per_s)
+ 91: B1V4/u (J_per_m3)
+ 92: B1V6/u (J_per_m3)
+ 93: PB2V1/u (J_per_m3)
+ 94: PB1V4/v_d (m3_per_s)
+ 95: B1V6/v (m3_per_s)
+ 96: PB2V1/v (m3_per_s)
+ 97: B1V4/u_d (J_per_m3)
+ 98: TC2/u (J_per_m3)
+ 99: B2V0/v_out_total (m3_per_s)
+100: B2V1/u (J_per_m3)
+101: B1V4/v (m3_per_s)
+102: TC2/v (m3_per_s)
+103: B2V1/v (m3_per_s)
+104: PTC1/u (J_per_m3)
+105: TC2/v_d (m3_per_s)
+106: TC3/u (J_per_m3)
+107: PB2V3/u (J_per_m3)
+108: PTC1/v (m3_per_s)
+109: TC3/v (m3_per_s)
+110: PB2V3/v (m3_per_s)
+111: TC1/u (J_per_m3)
+112: B1V6/v_out_total (m3_per_s)
+113: TC3/v_d (m3_per_s)
+114: B2V3/u (J_per_m3)
+115: PB2V2/u (J_per_m3)
+116: PB2V3/v_d (m3_per_s)
+117: TC1/v (m3_per_s)
+118: PB2V2/v (m3_per_s)
+119: PTC9/u_C (J_per_m3)
+120: TC1/v_d (m3_per_s)
+121: B2V1/v_out_total (m3_per_s)
+122: B2V2/u (J_per_m3)
+123: PTC9/u (J_per_m3)
+124: B2V2/v (m3_per_s)
+125: B1V9/v_d (m3_per_s)
+126: PTC4/u (J_per_m3)
+127: B0V1/v (m3_per_s)
+128: PTC4/v (m3_per_s)
+129: B2V3/v (m3_per_s)
+130: TC4/u (J_per_m3)
+131: PTC5/u (J_per_m3)
+132: generic_junction_connection/v_PTC9_sum_Min (m3_per_s)
+133: PTC4/v_d (m3_per_s)
+134: PTC5/v (m3_per_s)
+135: TC9/u (J_per_m3)
+136: B2V2/v_out_total (m3_per_s)
+137: TC4/v (m3_per_s)
+138: TC5/u (J_per_m3)
+139: PTC9/v (m3_per_s)
+140: TC5/v (m3_per_s)
+141: TC9/v (m3_per_s)
+142: TC5/v_d (m3_per_s)
+143: inlet_arteriole/E
+144: inlet_arteriole/u_0
+145: inlet_arteriole/theta
+146: inlet_arteriole/u_ext
+147: global/beta_g
+148: inlet_arteriole/u_in
+149: B1V0/q_C_init
+150: B1V0/E
+151: B1V0/r
+152: B1V0/u_ext
+153: PB1V1/q_C_init
+154: PB1V1/E
+155: PB1V1/r
+156: PB1V1/u_ext
+157: B1V1/E
+158: B1V1/r_0
+159: B1V1/theta
+160: B1V1/u_ext
+161: B1V2/E
+162: B1V2/r_0
+163: B1V2/u_ext
+164: B1V2/theta
+165: PB1V3/u_ext
+166: PB1V3/E
+167: PB1V3/l
+168: PB1V3/r
+169: B1V3/q_C_init
+170: B1V3/E
+171: B1V3/r
+172: B1V3/u_ext
+173: PB1V4/q_C_init
+174: PB1V4/E
+175: PB1V4/u_ext
+176: B1V4/E
+177: B1V4/r_0
+178: B1V4/theta
+179: B1V4/u_ext
+180: global/mu_plasma
+181: PTC1/u_ext
+182: PTC1/E
+183: PTC1/l
+184: PTC1/r
+185: TC1/q_C_init
+186: TC1/E
+187: TC1/r
+188: TC1/u_ext
+189: TC1/u_out
+190: PB1V6/u_ext
+191: PB1V6/E
+192: PB1V6/l
+193: PB1V6/r
+194: B1V6/q_C_init
+195: B1V6/E
+196: B1V6/r
+197: B1V6/u_ext
+198: TC2/q_C_init
+199: TC2/E
+200: TC2/r
+201: TC2/u_ext
+202: TC2/u_out
+203: TC3/q_C_init
+204: TC3/E
+205: TC3/r
+206: TC3/u_ext
+207: TC3/u_out
+208: B1V9/q_C_init
+209: B1V9/E
+210: B1V9/r
+211: B1V9/u_ext
+212: B2V0/q_C_init
+213: B2V0/E
+214: B2V0/r
+215: B2V0/u_ext
+216: PB0V1/q_C_init
+217: PB0V1/E
+218: PB0V1/u_ext
+219: B0V1/q_C_init
+220: B0V1/E
+221: B0V1/r
+222: B0V1/u_ext
+223: PB2V1/u_ext
+224: PB2V1/E
+225: PB2V1/l
+226: PB2V1/r
+227: B2V1/q_C_init
+228: B2V1/E
+229: B2V1/r
+230: B2V1/u_ext
+231: PB2V3/q_C_init
+232: PB2V3/E
+233: PB2V3/u_ext
+234: B2V3/q_C_init
+235: B2V3/E
+236: B2V3/r
+237: B2V3/u_ext
+238: PTC9/u_ext
+239: PTC9/theta
+240: PTC9/E
+241: PTC9/r_0
+242: PTC9/l
+243: TC9/q_C_init
+244: TC9/E
+245: TC9/r
+246: TC9/u_ext
+247: TC9/u_out
+248: PB2V2/u_ext
+249: PB2V2/E
+250: PB2V2/l
+251: PB2V2/r
+252: B2V2/q_C_init
+253: B2V2/E
+254: B2V2/r
+255: B2V2/u_ext
+256: PTC4/q_C_init
+257: PTC4/E
+258: PTC4/u_ext
+259: TC4/q_C_init
+260: TC4/E
+261: TC4/r
+262: TC4/u_ext
+263: TC4/u_out
+264: PTC5/u_ext
+265: PTC5/E
+266: PTC5/l
+267: PTC5/r
+268: TC5/q_C_init
+269: TC5/E
+270: TC5/r
+271: TC5/u_ext
+272: TC5/u_out
+273: global/rho
+274: global/mu
+275: global/g
+276: global/a_vessel
+277: global/b_vessel
+278: global/c_vessel
+279: global/d_vessel
+280: 
+281: inlet_arteriole/q_0
+282: B1V0/q_us
+283: PB1V1/q_us
+284: B1V1/q_0
+285: B1V2/q_0
+286: B1V3/q_us
+287: PB1V4/q_us
+288: B1V4/q_0
+289: TC1/q_us
+290: B1V6/q_us
+291: TC2/q_us
+292: TC3/q_us
+293: B1V9/q_us
+294: B2V0/q_us
+295: PB0V1/q_us
+296: B0V1/q_us
+297: B2V1/q_us
+298: PB2V3/q_us
+299: B2V3/q_us
+300: PTC9/q_0
+301: TC9/q_us
+302: B2V2/q_us
+303: PTC4/q_us
+304: TC4/q_us
+305: TC5/q_us
+306: B1V0/C
+307: PB1V1/C
+308: B1V1/C
+309: PB1V3/C
+310: B1V3/C
+311: PB1V4/C
+312: PTC1/C
+313: TC1/C
+314: PB1V6/C
+315: B1V6/C
+316: TC2/C
+317: TC3/C
+318: B1V9/C
+319: B2V0/C
+320: PB0V1/C
+321: B0V1/C
+322: PB2V1/C
+323: B2V1/C
+324: PB2V3/C
+325: B2V3/C
+326: TC9/C
+327: PB2V2/C
+328: B2V2/C
+329: PTC4/C
+330: TC4/C
+331: PTC5/C
+332: TC5/C
+333: B1V1/R_v
+334: B1V0/R
+335: PB1V1/R
+336: B1V1/mu
+337: B1V1/R
+338: PB1V3/R
+339: B1V3/mu_rel
+340: B1V3/mu
+341: B1V3/R
+342: PB1V4/R
+343: B1V4/mu
+344: PTC1/R
+345: TC1/R
+346: PB1V6/R
+347: B1V6/mu_rel
+348: B1V6/mu
+349: B1V6/R
+350: TC2/R
+351: TC3/R
+352: B1V9/R
+353: B2V0/mu_rel
+354: B2V0/mu
+355: B2V0/R
+356: PB0V1/R
+357: B0V1/R
+358: PB2V1/R
+359: B2V1/mu_rel
+360: B2V1/mu
+361: B2V1/R
+362: PB2V3/R
+363: B2V3/R
+364: PTC9/mu
+365: TC9/R
+366: PB2V2/R
+367: B2V2/mu_rel
+368: B2V2/mu
+369: B2V2/R
+370: PTC4/R
+371: TC4/R
+372: PTC5/R
+373: TC5/R
+
+
+
+
+
+
+#!/usr/bin/env python3
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from opencor_helper import SimulationHelper
+import os
+from datetime import datetime
+
+# ===== USER-CONFIGURABLE PARAMETERS =====
+CELLML_FILE = "/home/sliu205/Documents/git_projects/pericyte-arteriole_capillary_network/generated_models/microvasculature_network/microvasculature_network.cellml"
+SIM_DT = 0.01          # Simulation time step
+SIM_TIME = 2.5         # Total simulation time
+PRE_TIME = 0           # Pre-simulation time
+MAX_TIMESTEP = 0.01    # Maximum solver time step (critical for stability)
+OUTPUT_DIR = "simulation_results"
+
+# Percent change plot settings
+PERCENT_Y_MIN = -5     # Minimum y-axis value (%)
+PERCENT_Y_MAX = 0      # Maximum y-axis value (%)
+PERCENT_Y_INCREMENT = 0.5  # Y-axis increment (%)
+# ========================================
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+def get_unit(simulation, varname):
+    """Get the unit for a variable from the simulation object"""
+    try:
+        if varname == 'time':
+            return simulation.data().voi().unit()
+        elif varname in simulation.results().states():
+            return simulation.results().states()[varname].unit()
+        elif varname in simulation.results().algebraic():
+            return simulation.results().algebraic()[varname].unit()
+        elif varname in simulation.data().constants():
+            constant = simulation.data().constants()[varname]
+            if hasattr(constant, 'unit'):
+                return constant.unit()
+            return ""
+        return ""
+    except Exception as e:
+        print(f"Warning: Could not get unit for {varname}: {str(e)}")
+        return ""
+
+def format_unit(unit_str):
+    """Format the unit string for display"""
+    if not unit_str:
+        return ""
+    return f" ({unit_str})"
+
+def extract_var_name(full_name):
+    """Extract just the variable name after the last '/'"""
+    return full_name.split('/')[-1]
+
+def discover_and_select_variables():
+    print("Discovering available variables...")
+    sim = SimulationHelper(
+        CELLML_FILE, SIM_DT, 10,
+        solver_info={'MaximumStep': MAX_TIMESTEP, 'MaximumNumberOfSteps': 500000},
+        pre_time=0
+    )
+    state_vars = list(sim.simulation.results().states())
+    algebraic_vars = list(sim.simulation.results().algebraic())
+    constant_vars = list(sim.data.constants())
+    
+    # Get units for each variable
+    units_info = {}
+    for v in state_vars + algebraic_vars + constant_vars + ['time']:
+        units_info[v] = get_unit(sim.simulation, v)
+    
+    all_vars = state_vars + algebraic_vars + constant_vars
+    sim.close_simulation()
+
+    print("\n=== AVAILABLE VARIABLES ===")
+    for i, v in enumerate(all_vars):
+        print(f"{i:3}: {v}{format_unit(units_info.get(v, ''))}")
+
+    input_str = input("\nEnter comma-separated variable names to PLOT (e.g. TC1/u, TC2/u):\n> ")
+    requested_vars = [v.strip() for v in input_str.split(',')]
+    valid_vars = ['time'] + [v for v in requested_vars if v in all_vars]
+    invalid_vars = [v for v in requested_vars if v not in all_vars]
+
+    if invalid_vars:
+        print(f"\n⚠️ Invalid variable(s): {', '.join(invalid_vars)}")
+    if len(valid_vars) <= 1:
+        print("❌ No valid variables selected. Exiting.")
+        exit()
+
+    return valid_vars, all_vars, units_info
+
+def prompt_params_to_modify(all_vars, units_info):
+    print("\n=== Select parameter(s) to MODIFY (states or constants) or press Enter to skip ===")
+    print("Available parameters:")
+    for i, v in enumerate(all_vars):
+        print(f"{i:3}: {v}{format_unit(units_info.get(v, ''))}")
+
+    input_str = input("\nEnter comma-separated parameter names to MODIFY (or empty to skip):\n> ").strip()
+    if input_str == "":
+        return [], [], [], []
+
+    param_names = [v.strip() for v in input_str.split(',')]
+
+    invalid = [p for p in param_names if p not in all_vars]
+    if invalid:
+        print(f"⚠️ Invalid parameter(s): {', '.join(invalid)}")
+        exit()
+
+    mod_factors = []
+    mod_types = []
+    mod_labels = []
+
+    print("\nFor each parameter, enter either:")
+    print(" - a scaling factor (e.g. 1.2 to multiply by 1.2)")
+    print(" - or an absolute value prefixed by '=' (e.g. '=0.5') to set directly")
+    for p in param_names:
+        val_str = input(f"Modify '{p}': ")
+        if val_str.startswith('='):
+            try:
+                val = float(val_str[1:])
+                mod_factors.append(val)
+                mod_types.append('absolute')
+                mod_labels.append(f"{p}={val}{format_unit(units_info.get(p, ''))}")
+            except:
+                print("Invalid input, exiting")
+                exit()
+        else:
+            try:
+                val = float(val_str)
+                mod_factors.append(val)
+                mod_types.append('scaling')
+                mod_labels.append(f"{p}×{val}")
+            except:
+                print("Invalid input, exiting")
+                exit()
+
+    return param_names, mod_factors, mod_types, mod_labels
+
+def save_steady_state_bar_plot(selected_vars, results, time, timestamp, units_info, suffix=""):
+    variable_names = selected_vars[1:]
+    start_idx = int(0.75 * len(time))
+    steady_values = [np.mean(results[i][0][start_idx:]) for i in range(1, len(selected_vars))]
+
+    plt.figure(figsize=(10, 5))
+    plt.bar(variable_names, steady_values, color='teal')
+    plt.xticks(rotation=45, ha='right')
+    
+    # Use the base variable name (after last '/') and unit for y-axis
+    base_var_name = extract_var_name(selected_vars[1])
+    y_label = f"{base_var_name}{format_unit(units_info.get(selected_vars[1], ''))}"
+    plt.ylabel(y_label)
+    
+    plt.title("Steady-State Estimates (Final 25% of Simulation)")
+    plt.tight_layout()
+    path = os.path.join(OUTPUT_DIR, f"bar_plot_{timestamp}{suffix}.png")
+    plt.savefig(path, dpi=300)
+    plt.close()
+    print(f"✅ Bar plot saved to {path}")
+
+def plot_results_comparison(selected_vars, time, results_before, results_after, timestamp, mod_label, units_info):
+    # Save modified results to CSV
+    with open(os.path.join(OUTPUT_DIR, f"results_{timestamp}_modified.csv"), 'w') as f:
+        header = ["Time" + format_unit(units_info.get('time', ''))]
+        header += [var + format_unit(units_info.get(var, '')) for var in selected_vars[1:]]
+        f.write(",".join(header) + "\n")
+        for i in range(len(time)):
+            row = [str(time[i])] + [str(results_after[j][0][i]) for j in range(1, len(selected_vars))]
+            f.write(",".join(row) + "\n")
+    print(f"✅ Modified data saved to results_{timestamp}_modified.csv")
+
+    # Comparison plot
+    plt.figure(figsize=(12, 6))
+    for i, var in enumerate(selected_vars[1:], 1):
+        unit = format_unit(units_info.get(var, ''))
+        plt.plot(time, results_before[i][0], label=var)
+        plt.plot(time, results_after[i][0], label=f'{var} (modified)', linestyle='--')
+    
+    time_unit = format_unit(units_info.get('time', ''))
+    plt.xlabel(f"Time{time_unit}")
+    
+    # Use the base variable name (after last '/') and unit for y-axis
+    base_var_name = extract_var_name(selected_vars[1])
+    y_label = f"{base_var_name}{format_unit(units_info.get(selected_vars[1], ''))}"
+    plt.ylabel(y_label)
+    
+    plt.title("Comparison of Simulation Before and After Parameter Change")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, f"comparison_plot_{timestamp}.png"), dpi=300)
+    plt.close()
+    print(f"✅ Comparison plot saved to comparison_plot_{timestamp}.png")
+
+    # Percent change plot with manual y-axis settings
+    start_idx = int(0.75 * len(time))
+    base_vals = [np.mean(results_before[i][0][start_idx:]) for i in range(1, len(selected_vars))]
+    mod_vals = [np.mean(results_after[i][0][start_idx:]) for i in range(1, len(selected_vars))]
+
+    percent_change = [100 * (m - b) / b if b != 0 else 0 for b, m in zip(base_vals, mod_vals)]
+    
+    plt.figure(figsize=(10, 5))
+    bars = plt.bar(selected_vars[1:], percent_change, color='purple')
+    plt.xticks(rotation=45, ha='right')
+    
+    # Apply manual y-axis settings
+    plt.ylim(PERCENT_Y_MIN, PERCENT_Y_MAX)
+    plt.yticks(np.arange(PERCENT_Y_MIN, PERCENT_Y_MAX + PERCENT_Y_INCREMENT, PERCENT_Y_INCREMENT))
+    
+    plt.ylabel("% Change")
+    plt.title(f"Percent Change in Steady-State Values (Final 25%)\n({mod_label})")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, f"percent_change_hist_{timestamp}.png"), dpi=300)
+    plt.close()
+
+    # Absolute values comparison plot
+    x = np.arange(len(selected_vars[1:]))
+    width = 0.35
+    plt.figure(figsize=(10, 5))
+    plt.bar(x - width/2, base_vals, width, label='Baseline')
+    plt.bar(x + width/2, mod_vals, width, label=f'Modified ({mod_label})')
+    plt.xticks(x, selected_vars[1:], rotation=45, ha='right')
+    
+    # Use the base variable name (after last '/') and unit for y-axis
+    base_var_name = extract_var_name(selected_vars[1])
+    y_label = f"{base_var_name}{format_unit(units_info.get(selected_vars[1], ''))}"
+    plt.ylabel(y_label)
+    
+    plt.title("Absolute Steady-State Values (Final 25%)")
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, f"absolute_steady_hist_{timestamp}.png"), dpi=300)
+    plt.close()
+    print(f"✅ Steady-state histograms saved.")
+
+def run_simulation_and_plot(selected_vars, param_names, mod_factors, mod_types, mod_labels, units_info):
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    sim = SimulationHelper(CELLML_FILE, SIM_DT, SIM_TIME, 
+                         solver_info={'MaximumStep': MAX_TIMESTEP, 'MaximumNumberOfSteps': 500000}, 
+                         pre_time=PRE_TIME)
+
+    init_param_vals = sim.get_init_param_vals(param_names) if param_names else []
+
+    # Reset to initial conditions before baseline run
+    sim.reset_and_clear()
+    if param_names:
+        sim.set_param_vals(param_names, init_param_vals)
+    if not sim.run():
+        print("Baseline simulation failed!")
+        sim.close_simulation()
+        return
+
+    results_before = sim.get_results(selected_vars)
+    time = results_before[0][0]
+
+    save_steady_state_bar_plot(selected_vars, results_before, time, timestamp, units_info, suffix="_baseline")
+    plt.figure(figsize=(12, 6))
+    for i, var in enumerate(selected_vars[1:], 1):
+        plt.plot(time, results_before[i][0], label=var)
+    
+    time_unit = format_unit(units_info.get('time', ''))
+    plt.xlabel(f"Time{time_unit}")
+    
+    # Use the base variable name (after last '/') and unit for y-axis
+    base_var_name = extract_var_name(selected_vars[1])
+    y_label = f"{base_var_name}{format_unit(units_info.get(selected_vars[1], ''))}"
+    plt.ylabel(y_label)
+    
+    plt.title("Baseline Simulation Results")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, f"results_{timestamp}_baseline.png"), dpi=300)
+    plt.close()
+
+    with open(os.path.join(OUTPUT_DIR, f"results_{timestamp}_baseline.csv"), 'w') as f:
+        header = ["Time" + format_unit(units_info.get('time', ''))]
+        header += [var + format_unit(units_info.get(var, '')) for var in selected_vars[1:]]
+        f.write(",".join(header) + "\n")
+        for i in range(len(time)):
+            row = [str(time[i])] + [str(results_before[j][0][i]) for j in range(1, len(selected_vars))]
+            f.write(",".join(row) + "\n")
+    print(f"✅ Data saved to results_{timestamp}_baseline.csv")
+
+    absolute_flags = [t == 'absolute' for t in mod_types]
+
+    # Reset to initial conditions before modified run
+    sim.reset_and_clear()
+    if param_names:
+        sim.set_param_vals(param_names, init_param_vals)
+
+    if any(absolute_flags):
+        results_after = sim.modify_params_and_run_and_get_results(param_names, mod_factors, selected_vars, absolute=True)
+    else:
+        results_after = sim.modify_params_and_run_and_get_results(param_names, mod_factors, selected_vars)
+
+    mod_label = ", ".join(mod_labels)
+    plot_results_comparison(selected_vars, time, results_before, results_after, timestamp, mod_label, units_info)
+
+    sim.close_simulation()
+
+def main():
+    selected_vars, all_vars, units_info = discover_and_select_variables()
+    param_names, mod_factors, mod_types, mod_labels = prompt_params_to_modify(all_vars, units_info)
+    run_simulation_and_plot(selected_vars, param_names, mod_factors, mod_types, mod_labels, units_info)
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+constriction dilation phases
+
+=== ALL AVAILABLE PARAMETERS ===
+Constants:
+  inlet_arteriole/E
+  inlet_arteriole/u_0
+  inlet_arteriole/theta
+  inlet_arteriole/u_ext
+  global/beta_g
+  inlet_arteriole/u_in
+  B1V0/q_C_init
+  B1V0/E
+  B1V0/r
+  B1V0/u_ext
+  PB1V1/q_C_init
+  PB1V1/E
+  PB1V1/r
+  PB1V1/u_ext
+  B1V1/E
+  B1V1/r_0
+  B1V1/theta
+  B1V1/u_ext
+  B1V2/E
+  B1V2/r_0
+  B1V2/u_ext
+  B1V2/theta
+  PB1V3/u_ext
+  PB1V3/E
+  PB1V3/l
+  PB1V3/r
+  B1V3/q_C_init
+  B1V3/E
+  B1V3/r
+  B1V3/u_ext
+  PB1V4/q_C_init
+  PB1V4/E
+  PB1V4/r
+  PB1V4/u_ext
+  B1V4/E
+  B1V4/r_0
+  B1V4/theta
+  B1V4/u_ext
+  global/mu_plasma
+  PTC1/u_ext
+  PTC1/E
+  PTC1/l
+  PTC1/r
+  TC1/q_C_init
+  TC1/E
+  TC1/r
+  TC1/u_ext
+  TC1/u_out
+  PB1V6/u_ext
+  PB1V6/E
+  PB1V6/l
+  PB1V6/r
+  B1V6/q_C_init
+  B1V6/E
+  B1V6/r
+  B1V6/u_ext
+  TC2/q_C_init
+  TC2/E
+  TC2/r
+  TC2/u_ext
+  TC2/u_out
+  TC3/q_C_init
+  TC3/E
+  TC3/r
+  TC3/u_ext
+  TC3/u_out
+  B1V9/q_C_init
+  B1V9/E
+  B1V9/r
+  B1V9/u_ext
+  B2V0/q_C_init
+  B2V0/E
+  B2V0/r
+  B2V0/u_ext
+  PB0V1/q_C_init
+  PB0V1/E
+  PB0V1/r
+  PB0V1/u_ext
+  B0V1/q_C_init
+  B0V1/E
+  B0V1/r
+  B0V1/u_ext
+  PB2V1/u_ext
+  PB2V1/E
+  PB2V1/l
+  PB2V1/r
+  B2V1/q_C_init
+  B2V1/E
+  B2V1/r
+  B2V1/u_ext
+  PB2V3/q_C_init
+  PB2V3/E
+  PB2V3/r
+  PB2V3/u_ext
+  B2V3/q_C_init
+  B2V3/E
+  B2V3/r
+  B2V3/u_ext
+  PTC9/u_ext
+  PTC9/theta
+  PTC9/E
+  PTC9/r_0
+  PTC9/l
+  TC9/q_C_init
+  TC9/E
+  TC9/r
+  TC9/u_ext
+  TC9/u_out
+  PB2V2/u_ext
+  PB2V2/E
+  PB2V2/l
+  PB2V2/r
+  B2V2/q_C_init
+  B2V2/E
+  B2V2/r
+  B2V2/u_ext
+  PTC4/q_C_init
+  PTC4/E
+  PTC4/r
+  PTC4/u_ext
+  TC4/q_C_init
+  TC4/E
+  TC4/r
+  TC4/u_ext
+  TC4/u_out
+  PTC5/u_ext
+  PTC5/E
+  PTC5/l
+  PTC5/r
+  TC5/q_C_init
+  TC5/E
+  TC5/r
+  TC5/u_ext
+  TC5/u_out
+  global/rho
+  global/mu
+  global/g
+  global/a_vessel
+  global/b_vessel
+  global/c_vessel
+  global/d_vessel
+  
+  inlet_arteriole/q_0
+  B1V0/q_us
+  PB1V1/q_us
+  B1V1/q_0
+  B1V2/q_0
+  B1V3/q_us
+  PB1V4/q_us
+  B1V4/q_0
+  TC1/q_us
+  B1V6/q_us
+  TC2/q_us
+  TC3/q_us
+  B1V9/q_us
+  B2V0/q_us
+  PB0V1/q_us
+  B0V1/q_us
+  B2V1/q_us
+  PB2V3/q_us
+  B2V3/q_us
+  PTC9/q_0
+  TC9/q_us
+  B2V2/q_us
+  PTC4/q_us
+  TC4/q_us
+  TC5/q_us
+  B1V0/C
+  PB1V1/C
+  B1V1/C
+  PB1V3/C
+  B1V3/C
+  PB1V4/C
+  PTC1/C
+  TC1/C
+  PB1V6/C
+  B1V6/C
+  TC2/C
+  TC3/C
+  B1V9/C
+  B2V0/C
+  PB0V1/C
+  B0V1/C
+  PB2V1/C
+  B2V1/C
+  PB2V3/C
+  B2V3/C
+  TC9/C
+  PB2V2/C
+  B2V2/C
+  PTC4/C
+  TC4/C
+  PTC5/C
+  TC5/C
+  B1V1/R_v
+  B1V0/R
+  PB1V1/R
+  B1V1/mu
+  B1V1/R
+  PB1V3/R
+  B1V3/mu_rel
+  B1V3/mu
+  B1V3/R
+  PB1V4/R
+  B1V4/mu
+  PTC1/R
+  TC1/R
+  PB1V6/R
+  B1V6/mu_rel
+  B1V6/mu
+  B1V6/R
+  TC2/R
+  TC3/R
+  B1V9/R
+  B2V0/mu_rel
+  B2V0/mu
+  B2V0/R
+  PB0V1/R
+  B0V1/R
+  PB2V1/R
+  B2V1/mu_rel
+  B2V1/mu
+  B2V1/R
+  PB2V3/R
+  B2V3/R
+  PTC9/mu
+  TC9/R
+  PB2V2/R
+  B2V2/mu_rel
+  B2V2/mu
+  B2V2/R
+  PTC4/R
+  TC4/R
+  PTC5/R
+  TC5/R
+
+States:
+  inlet_arteriole/v
+  inlet_arteriole/q_C
+  B1V0/q_C
+  PB1V1/q_C
+  B1V1/q_C
+  B1V1/q_C_d
+  B1V2/q_C
+  B1V3/q_C
+  PB1V4/q_C
+  B1V4/q_C
+  B1V4/q_C_d
+  TC1/q_C
+  B1V6/q_C
+  TC2/q_C
+  TC3/q_C
+  B1V9/q_C
+  B2V0/q_C
+  PB0V1/q_C
+  B0V1/q_C
+  B2V1/q_C
+  PB2V3/q_C
+  B2V3/q_C
+  PTC9/q_C
+  TC9/q_C
+  B2V2/q_C
+  PTC4/q_C
+  TC4/q_C
+  TC5/q_C
+  
+
+=== POTENTIAL RADIUS PARAMETERS ===
+  B1V0/r
+  PB1V1/r
+  B1V1/r_0
+  B1V2/r_0
+  PB1V3/r
+  B1V3/r
+  PB1V4/r
+  B1V4/r_0
+  PTC1/r
+  TC1/r
+  PB1V6/r
+  B1V6/r
+  TC2/r
+  TC3/r
+  B1V9/r
+  B2V0/r
+  PB0V1/r
+  B0V1/r
+  PB2V1/r
+  B2V1/r
+  PB2V3/r
+  B2V3/r
+  PTC9/r_0
+  TC9/r
+  PB2V2/r
+  B2V2/r
+  PTC4/r
+  TC4/r
+  PTC5/r
+  TC5/r
+  global/rho
+  B1V1/R_v
+  B1V0/R
+  PB1V1/R
+  B1V1/R
+  PB1V3/R
+  B1V3/R
+  PB1V4/R
+  PTC1/R
+  TC1/R
+  PB1V6/R
+  B1V6/R
+  TC2/R
+  TC3/R
+  B1V9/R
+  B2V0/R
+  PB0V1/R
+  B0V1/R
+  PB2V1/R
+  B2V1/R
+  PB2V3/R
+  B2V3/R
+  TC9/R
+  PB2V2/R
+  B2V2/R
+  PTC4/R
+  TC4/R
+  PTC5/R
+  TC5/R
+
+
+
+
+#!/usr/bin/env python3
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from opencor_helper import SimulationHelper
+import os
+from datetime import datetime
+import time
+
+# ===== USER-CONFIGURABLE PARAMETERS =====
+CELLML_FILE = "/home/sliu205/Documents/git_projects/pericyte-arteriole_capillary_network/generated_models/microvasculature_network/microvasculature_network.cellml"
+OUTPUT_DIR = os.path.join("simulation_results", "constriction_rest_dilation")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Variables to plot
+SELECTED_VARS = ['time', 'TC1/u', 'TC2/u', 'TC3/u', 'TC4/u', 'TC5/u', 'TC9/u']
+
+# Simulation timing parameters (in seconds)
+REST1_DURATION = 10.0    # Initial rest period
+CONSTRICTION_DURATION = 30.0  # Constriction phase duration
+REST2_DURATION = 20.0    # Second rest period
+DILATION_DURATION = 30.0  # Dilation phase duration
+REST3_DURATION = 10.0    # Final rest period
+SIM_DT = 0.01           # Time step for simulation
+MAX_TIMESTEP = 0.01     # Maximum solver time step
+
+# Parameter modifications for different phases
+CONSTRICTION_PARAMS = {
+    'PB1V1/r': 0.1,  # Reduce radius by 90%
+    'PTC1/r': 0.5,   # Reduce radius by 50%
+    'PB1V6/r': 0.5,
+    'PTC4/r': 0.5,
+    'PTC5/r': 0.5,
+    'PTC9/r_0': 0.5
+}
+
+DILATION_PARAMS = {
+    'PB1V1/r': 1.0,  # Return to normal
+    'PTC1/r': 1.5,   # Increase radius by 50%
+    'PB1V6/r': 1.5,
+    'PTC4/r': 1.5,
+    'PTC5/r': 1.5,
+    'PTC9/r_0': 1.5
+}
+
+def get_unit(simulation, varname):
+    """Get the unit for a variable from the simulation object"""
+    try:
+        if varname == 'time':
+            return "s"
+        elif varname in simulation.results().states():
+            return simulation.results().states()[varname].unit()
+        elif varname in simulation.results().algebraic():
+            return simulation.results().algebraic()[varname].unit()
+        elif varname in simulation.data().constants():
+            constant = simulation.data().constants()[varname]
+            if hasattr(constant, 'unit'):
+                return constant.unit()
+            return ""
+        return ""
+    except Exception as e:
+        print(f"Warning: Could not get unit for {varname}: {str(e)}")
+        return ""
+
+def format_unit(unit_str):
+    """Format the unit string for display"""
+    if not unit_str:
+        return ""
+    return f" ({unit_str})"
+
+def discover_and_select_variables():
+    print("Discovering available variables...")
+    try:
+        sim = SimulationHelper(CELLML_FILE, 0.1, 1.0,
+                            solver_info={'MaximumStep': MAX_TIMESTEP, 'MaximumNumberOfSteps': 500000},
+                            pre_time=0)
+        state_vars = list(sim.simulation.results().states())
+        algebraic_vars = list(sim.simulation.results().algebraic())
+        constant_vars = list(sim.data.constants())
+        
+        units_info = {}
+        for v in state_vars + algebraic_vars + constant_vars + ['time']:
+            units_info[v] = get_unit(sim.simulation, v)
+        
+        all_vars = state_vars + algebraic_vars + constant_vars
+        sim.close_simulation()
+
+        # Verify selected variables exist
+        missing_vars = [v for v in SELECTED_VARS if v not in all_vars and v != 'time']
+        if missing_vars:
+            print(f"Warning: Some selected variables don't exist: {missing_vars}")
+        
+        return SELECTED_VARS, all_vars, units_info
+    except Exception as e:
+        print(f"Error discovering variables: {str(e)}")
+        return None, None, None
+
+def run_phased_simulation(selected_vars, units_info):
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    total_time = REST1_DURATION + CONSTRICTION_DURATION + REST2_DURATION + DILATION_DURATION + REST3_DURATION
+    
+    print("\nInitializing simulation...")
+    try:
+        sim = SimulationHelper(CELLML_FILE, SIM_DT, total_time,
+                             solver_info={'MaximumStep': MAX_TIMESTEP, 'MaximumNumberOfSteps': 500000},
+                             pre_time=0)
+    except Exception as e:
+        print(f"Error initializing simulation: {str(e)}")
+        return None, None
+
+    # Phase timeline with parameter changes
+    phases = [
+        (0, REST1_DURATION, "Initial Rest", {}),
+        (REST1_DURATION, CONSTRICTION_DURATION, "Constriction", CONSTRICTION_PARAMS),
+        (REST1_DURATION + CONSTRICTION_DURATION, REST2_DURATION, "Second Rest", {}),
+        (REST1_DURATION + CONSTRICTION_DURATION + REST2_DURATION, DILATION_DURATION, "Dilation", DILATION_PARAMS),
+        (REST1_DURATION + CONSTRICTION_DURATION + REST2_DURATION + DILATION_DURATION, REST3_DURATION, "Final Rest", {})
+    ]
+
+    # Apply parameter changes at each phase transition
+    for start_time, duration, phase_name, params in phases:
+        print(f"\nSetting parameters for {phase_name} phase (t={start_time}-{start_time+duration}s)")
+        if params:
+            sim.data.set_starting_point(start_time)
+            sim.set_param_vals(list(params.keys()), list(params.values()))
+            print(f"Applied parameters: {params}")
+
+    # Reset to start and run simulation
+    sim.data.set_starting_point(0)
+    print("\nRunning simulation...")
+    if not sim.run():
+        print("Simulation failed!")
+        sim.close_simulation()
+        return None, None
+
+    # Get results
+    results = sim.get_results(selected_vars)
+    time_data = results[0][0]
+    
+    # Verify data
+    print("\n=== DATA VERIFICATION ===")
+    print(f"Time points: {len(time_data)}, from {time_data[0]} to {time_data[-1]}s")
+    for i, var in enumerate(selected_vars):
+        print(f"{var}: min={np.min(results[i][0]):.2f}, max={np.max(results[i][0]):.2f}")
+
+    # Plot results
+    plt.figure(figsize=(12, 6))
+    for i, var in enumerate(selected_vars[1:], 1):
+        plt.plot(time_data, results[i][0], label=var)
+    
+    # Add phase markers at bottom
+    phase_transitions = [
+        (REST1_DURATION, "Constriction Start"),
+        (REST1_DURATION + CONSTRICTION_DURATION, "Rest Start"),
+        (REST1_DURATION + CONSTRICTION_DURATION + REST2_DURATION, "Dilation Start"),
+        (REST1_DURATION + CONSTRICTION_DURATION + REST2_DURATION + DILATION_DURATION, "Final Rest")
+    ]
+    y_min = plt.ylim()[0]
+    for x, label in phase_transitions:
+        plt.axvline(x=x, color='gray', linestyle='--', alpha=0.5)
+        plt.text(x, y_min + 0.05*(plt.ylim()[1]-y_min), label, rotation=90, va='bottom', ha='right')
+    
+    plt.xlabel("Time (s)")
+    plt.ylabel("Flow Velocity (J/m³)")
+    plt.title("Vessel Flow Velocity During Constriction/Dilation Phases")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    
+    plot_filename = os.path.join(OUTPUT_DIR, f"flow_velocity_trace_{timestamp}.png")
+    plt.savefig(plot_filename, dpi=300)
+    plt.close()
+    print(f"\n✅ Plot saved to {plot_filename}")
+    
+    # Save data
+    csv_filename = os.path.join(OUTPUT_DIR, f"flow_data_{timestamp}.csv")
+    with open(csv_filename, 'w') as f:
+        header = ["Time (s)"] + selected_vars[1:]
+        f.write(",".join(header) + "\n")
+        for i in range(len(time_data)):
+            row = [str(time_data[i])] + [str(results[j][0][i]) for j in range(1, len(selected_vars))]
+            f.write(",".join(row) + "\n")
+    print(f"✅ Data saved to {csv_filename}")
+    
+    sim.close_simulation()
+    return time_data, results
+
+def main():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    selected_vars, all_vars, units_info = discover_and_select_variables()
+    
+    if selected_vars is None:
+        print("\nFailed to discover variables!")
+        return
+    
+    print("\n=== SELECTED VARIABLES ===")
+    for var in selected_vars:
+        print(f"{var}{format_unit(units_info.get(var, ''))}")
+    
+    print("\nStarting simulation...")
+    time_data, results = run_phased_simulation(selected_vars, units_info)
+    
+    if time_data is not None and results is not None:
+        print("\nSimulation completed successfully!")
+        print(f"Results saved in: {OUTPUT_DIR}")
+    else:
+        print("\nSimulation failed!")
+
+if __name__ == "__main__":
+    main()

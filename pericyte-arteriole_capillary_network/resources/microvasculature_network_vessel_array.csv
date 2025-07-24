@@ -1,0 +1,32 @@
+name,BC_type,vessel_type,inp_vessels,out_vessels
+inlet_arteriole,vv_novisco,split_junction,,B1V0  B2V0
+B1V0,pp,capillary,inlet_arteriole,PB1V1
+PB1V1,vp,pericyte,B1V0,B1V1
+B1V1,vv,capillary_split,PB1V1,B1V9  B1V2
+B1V2,pv,capillary,B1V1,PB1V3
+PB1V3,pv,pericyte,B1V2,B1V3 
+B1V3,pv,capillary_split,PB1V3,PB1V4  PB1V6
+PB1V4,pp,pericyte,B1V3,B1V4
+B1V4,vv,capillary,PB1V4,PTC1
+PTC1,pv,pericyte,B1V4,TC1
+TC1,pp,capillary,PTC1,
+PB1V6,pv,pericyte,B1V3,B1V6
+B1V6,pv,capillary_split,PB1V6,TC2 TC3
+TC2,pp,capillary,B1V6,
+TC3,pp,capillary,B1V6,
+B1V9,pp,capillary,B1V1,PTC9
+B2V0,pv,capillary_split,inlet_arteriole,PB0V1  PB2V1
+PB0V1,pp,pericyte,B2V0,B0V1
+B0V1,vp,capillary,PB0V1,PTC9
+PB2V1,pv,pericyte,B2V0,B2V1
+B2V1,pv,capillary_split,PB2V1,PB2V3  PB2V2
+PB2V3,pp,pericyte,B2V1,B2V3
+B2V3,vp,capillary,PB2V3,PTC9
+PTC9,vp,Min_junction_pericyte,B2V3  B0V1  B1V9,TC9
+TC9,vp,capillary,PTC9,
+PB2V2,pv,pericyte,B2V1,B2V2
+B2V2,pv,capillary_split,PB2V2,PTC4  PTC5
+PTC4,pp,pericyte,B2V2,TC4
+TC4,vp,capillary,PTC4,
+PTC5,pv,pericyte,B2V2,TC5
+TC5,pp,capillary,PTC5,

@@ -1,0 +1,17 @@
+variable_name,units,value,data_reference
+E_inlet_arteriole,J_per_m3,3000,Guess from 6
+l_inlet_arteriole,metre,0.00002,microscpoe
+r_0_inlet_arteriole,metre,0.000004,1-5
+theta_inlet_arteriole,dimensionless,0,tutorial_params.csv (blood density)
+u_ext_inlet_arteriole,J_per_m3,-16,"7,8"
+v_out_1_inlet_arteriole,m3_per_s,1,EMPTY_MUST_BE_FILLED
+v_out_2_inlet_arteriole,m3_per_s,1,EMPTY_MUST_BE_FILLED
+v_in_inlet_arteriole,m3_per_s,0.01,EMPTY_MUST_BE_FILLED
+beta_g,dimensionless,0,tutorial_params.csv (blood density)
+rho,Js2_per_m5,1050,tutorial_params.csv (blood density)
+mu,Js_per_m3,0.004,tutorial_params.csv (blood density)
+g,m_per_s2,9.81,tutorial_params.csv (blood density)
+a_vessel,dimensionless,0.2802,Avolio_1980
+b_vessel,per_m,-505.3,Avolio_1980
+c_vessel,dimensionless,0.1324,Avolio_1980
+d_vessel,per_m,-11.14,Avolio_1980

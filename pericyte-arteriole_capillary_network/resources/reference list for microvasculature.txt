@@ -1,0 +1,44 @@
+reference list for microvasculature_network_parameters.csv
+
+capillary diameter
+3uM diameter-Pries 1992
+4.0 + 0.08 (n=57) to 5.5 + 0.09 (n=61) um-rat (1)
+4-5.5uM-rats (4)
+5.3-5.7uM (5)
+
+
+
+terminal-arteriole diameter
+7-13uM (2)
+8 (3)-rats 
+
+
+
+
+
+
+
+reference list
+1), Myrhage, R., & Hudlická, O. (1976). The microvascular bed and capillary surface area in rat extensor hallucis proprius muscle (EHP). Microvascular Research, 11(3), 315-323.
+
+2),Marshall, J. M., & Tandon, H. C. (1984). Direct observations of muscle arterioles and venules following contraction of skeletal muscle fibres in the rat. The Journal of physiology, 350(1), 447-459.
+
+(3), Lash, J. M., & Bohlen, H. G. (1992). Functional adaptations of rat skeletal muscle arterioles to aerobic exercise training. Journal of Applied Physiology, 72(6), 2052-2062.
+
+(4), Myrhage, R., & Hudlická, O. (1978). Capillary growth in chronically stimulated adult skeletal muscle as studied by intravital microscopy and histological methods in rabbits and rats. Microvascular Research, 16(1), 73-90.
+
+(5), Fraser, G. M., Milkovich, S., Goldman, D., & Ellis, C. G. (2012). Mapping 3-D functional capillary geometry in rat skeletal muscle in vivo. American Journal of Physiology-Heart and Circulatory Physiology, 302(3), H654-H664.
+
+
+(6)Wyss, H. M., Henderson, J. M., Byfield, F. J., Bruggeman, L. A., Ding, Y., Huang, C., ... & Miller, R. T. (2011). Biophysical properties of normal and diseased renal glomeruli. American Journal of Physiology-Cell Physiology, 300(3), C397-C405.
+
+(7) Fadnes, H. O., Reed, R. K., & Aukland, K. (1978). Mechanisms regulating interstitial fluid volume. Lymphology, 11(4), 165-169.
+
+(8) Wiig, H., Reed, R. K., & Aukland, K. (1981). Micropuncture measurement of interstitial fluid pressure in rat subcutis and skeletal muscle: comparison to wick-in-needle technique. Microvascular research, 21(3), 308-319.
+
+(9), Tomiyama, Y., Brian Jr, J. E., & Todd, M. M. (2000). Plasma viscosity and cerebral blood flow. American Journal of Physiology-Heart and Circulatory Physiology, 279(4), H1949-H1954.
+
+10, https://kparker.bg-research.cc.ic.ac.uk/homepage/Mechanics%20of%20the%20Circulation/Chap_13/_Chapter_13a.htm?utm_source=chatgpt.com
+
+11, DeLano, F. A., Schmid-Schönbein, G. W., Skalak, T. C., & Zweifach, B. W. (1991). Penetration of the systemic blood pressure into the microvasculature of rat skeletal muscle. Microvascular research, 41(1), 92-110.
+says arteriole arcade bridge is 70mmHg but this is a very large diameter arteriole. and mentions20-30mmHg for capillaries so set to 50mmHg so pressure drop is not too insane
